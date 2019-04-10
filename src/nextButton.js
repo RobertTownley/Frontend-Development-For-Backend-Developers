@@ -17,7 +17,7 @@ export default class NextButton extends React.Component {
   render() {
     return (
       <button onClick={this.handleClick}>
-        <img src='static/cowboy.png' />
+        <img src='/static/cowboy.svg' />
         <span>Gimme Another</span>
       </button>
     )
