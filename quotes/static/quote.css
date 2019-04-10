@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'rogers';
+  src: url('./FrenteH1-Regular.otf');
+}
+
+body {
+  background-color: #BBDDFF;
+  box-sizing: border-box;
+  padding: 32px;
+  font-family: 'rogers';
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper {
+  background-color: #FFF;
+  box-sizing: border-box;
+  padding: 32px;
+  height: 100%;
+  max-width: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper h1 {
+  font-size: 36px;
+}
+@media(max-height: 700px){
+  .wrapper h1 {
+    font-size: 24px;
+  }
+}
+.wrapper .attribution {
+  font-size: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 50vh;
+}
+
+button {
+  background-color: white;
+  border: 4px black solid;
+  cursor: pointer;
+  width: 200px;
+  margin: 0 auto;
+
+  display: flex;
+  font-family: 'rogers';
+  align-items: center;
+  padding: 8px;
+  margin-top: 16px;
+}
+button:hover {
+  border: 4px #BBDDFF solid;
+  background-color: #BBDDFF;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button img {
+  width: 64px;
+  height: 64px;
+}
+button .buttonText {
+  font-weight: bold;
+  font-size: 20px;
+}

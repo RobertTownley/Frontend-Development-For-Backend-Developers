@@ -1,0 +1,27 @@
+{% load staticfiles %}
+
+<html>
+  <head>
+    <link rel="shortcut icon" href="{% static 'favicon.png' %}"/>
+    <link rel='stylesheet' type='text/css' href="{% static "quote.css" %}"/>
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src='{% static "quote.js" %}'></script>
+  </head>
+  <body>
+
+    <div class='wrapper'>
+      <div class='quote'>
+        <img src='{% static "willRogers.jpg" %}' />
+        <h1>{{ quote.text }}</h1>
+        <div class='attribution'>―{{ quote.attribution }}</div>
+      </div>
+
+      <button id='nextButton'>
+        <img src="{% static 'cowboy.svg' %}" />
+        <div class='buttonText'>Gimme Another</div>
+      </button>
+    </div>
+
+  </body>
+</html>
