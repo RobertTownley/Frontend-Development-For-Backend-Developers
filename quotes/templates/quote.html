@@ -3,9 +3,17 @@
 <html>
   <head>
     <link rel="shortcut icon" href="{% static 'favicon.png' %}"/>
-    <link rel='stylesheet' type='text/css' href="{% static "quote.css" %}"/>
 
+    <!-- Adding this line below -->
+    <link rel='stylesheet' type='text/css' href='{% static 'normalize.css/normalize.css' %}' />
+    <link rel='stylesheet' type='text/css' href='{% static 'quote.css' %}'/>
+
+    <!--
+    Replacing this 
     <script src="https://code.jquery.com/jquery.min.js"></script>
+    ...with this:
+    -->
+    <script src='{% static 'jquery/dist/jquery.min.js' %}'></script>
     <script src='{% static "quote.js" %}'></script>
   </head>
   <body>
