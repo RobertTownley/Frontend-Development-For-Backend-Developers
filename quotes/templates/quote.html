@@ -6,13 +6,6 @@
     <link rel='stylesheet' type='text/css' href='{% static 'normalize.css/normalize.css' %}' />
     <link rel='stylesheet' type='text/css' href='{% static 'quote.css' %}'/>
 
-    <!--
-    Replacing this 
-    <script src='{% static 'jquery/dist/jquery.min.js' %}'></script>
-    <script src='{% static "quote.js" %}'></script>
-    ...with this:
-    -->
-    <script src='{% static 'bundle.js' %}'></script>
   </head>
   <body>
 
@@ -23,11 +16,9 @@
         <div class='attribution'>―{{ quote.attribution }}</div>
       </div>
 
-      <button id='nextButton'>
-        <img src="{% static 'cowboy.svg' %}" />
-        <div class='buttonText'>Gimme Another</div>
-      </button>
+      <div id='nextButton'></div>
     </div>
 
+    <script src='{% static 'bundle.js' %}'></script>
   </body>
 </html>
