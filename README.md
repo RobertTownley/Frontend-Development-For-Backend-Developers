@@ -1,4 +1,4 @@
-#Introduction
+##Introduction
 Hi everyone. How's it going? I'm asking collectively. Obviously I don't have time right now to ask you all individually,
 so I've got to settle for a weird, collective "Woo" noise and applause.
 
@@ -168,42 +168,6 @@ become independent resources that contain everything they need.
 Webpack also helps with managing the different tools you might use in your project (Scss, babel, browsersync, UI libraries...).
 If you're sold on the idea of hot module reloading, and if you like running Scss with a --watch flag, and if you're
 running your Django runserver, and if you want to create optimized crops of image resources... your terminal might be looking a bit hectic.
-
-
-
-
-
-
-He was a kind man. He was funny. He cared about people. He cared about ideas, mental models, and the quality of thought. He
-cared about learning, and didn't care where that learning came from.
-So I thought of him when it came time to plan this talk, since I'm a strange choice to be teaching a room full of smart
-people about frontend development.
-
-
-
-
-
-
-And his unique brand of empathetic, thoughtful, sometimes self-deprecating humor is less common than it should be.
-
-In preparation for this talk, I made a Will Rogers quote application. It's a super basic Django application that serves
-up a random Will Rogers quote. 
-
-
-
-When I was thinking of applications today, we're going to take a Will Rogers quote application, and give it 
-
-
-
-
-
-Since we started dating, I've learned more about Tulsa Oklahoma than I ever thought I would. One of my favorite things
-
-But first, I promised you some cowboy stuff.
-
-Last year, I married a woman from Tulsa, Oklahoma.
-
-I'd like to start things off by introducing you all to a cowboy.
 
 ## Thank you
 Thank you all for taking time out of your schedules and lives to hear me speak. It's a vote of confidence in me that
